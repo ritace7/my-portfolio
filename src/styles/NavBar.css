@@ -1,0 +1,30 @@
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-logo{
+    width: 4em;
+    height: 4em;
+}
+
+.links{
+    display: flex;
+    justify-content:flex-end;
+    padding: 3px 5px;
+}
+
+.link-items{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 5px;
+    color: white;
+}
+
+.link-items:hover{
+    color:aqua;
+    cursor: pointer;
+}

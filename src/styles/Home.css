@@ -1,0 +1,34 @@
+.home-page{
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px;
+}
+
+.homeImage{
+    width: 300px;
+    height: 400px;
+}
+
+/*
+.introduction{
+    margin: auto;
+    width: 36ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}*/
+
+.fragments{
+    font-size: 2.4em;
+}
+
+@keyframes typing{
+    from{
+        width:0
+    }
+}
