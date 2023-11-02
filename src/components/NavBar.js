@@ -8,7 +8,7 @@ export default function NavBar(){
         <nav className="navbar">
             <img src={logo} className="nav-logo" alt="logo"/>
             <div className="links">
-                <Link className='link-items' to="/">HOME</Link>
+                <Link className='link-items' to="/my-portfolio">HOME</Link>
                 <Link className='link-items' to="/about">ABOUT</Link>
                 <Link className='link-items' to="/projects">PROJECTS</Link>
                 <Link className='link-items' to="/contact">CONTACT</Link>

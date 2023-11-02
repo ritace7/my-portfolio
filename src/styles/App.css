@@ -1,9 +1,13 @@
+@import "Variables.css";
+
 *{
     box-sizing: border-box;
-    background-color: #343333;
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-text-primary);
     margin: 0;
     padding: 0;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
 }
 
 

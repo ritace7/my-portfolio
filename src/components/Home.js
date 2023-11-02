@@ -7,17 +7,15 @@ export default function Home(){
         <div className='home-page'>
             <div className='introduction'>
                 <p>
-                    <span className='fragments'> 
-                        &lt;&gt;
-                    </span>                
+                    <span className='fragments'>&lt;&gt;</span>                
                         Hello, World!                                   
                 </p>
-                <p>I'm Hritesh Shrestha</p>
+                <p>I'm <span className='fragments'>Hritesh</span> Shrestha</p>
                 <p>
-                    Web Developer | Music Producer
-                    <span className='fragments'> 
-                        &lt;/&gt;
-                    </span> 
+                    Web Developer 
+                    <span className='fragments'>|</span>
+                    Music Producer
+                    <span className='fragments'>&lt;/&gt;</span> 
                 </p>
             </div>
             <img src={homeImg} alt="home" className="homeImage"/>

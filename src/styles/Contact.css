@@ -1,0 +1,22 @@
+.contact{
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 2em;
+    text-align: justify;
+}
+
+.header{
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--color-secondary);
+}
+
+.side-image{
+    width: 70%;        
+    height: 87vh;
+}
+
+hr{
+    color: var(--color-secondary);
+}

@@ -1,5 +1,24 @@
 .project-section{
+    padding: 15px 0;
     text-align: center;
+    line-height: 10px;
+}
+
+.project-section h2{
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 10px;
+    color: var(--color-secondary);
+}
+
+.social-icons-logo{
+    font-size: 2em;
+    margin: 0.4em 0 0 0;
+}
+
+.social-icons-logo:hover{
+  transform: scale(1.4);
 }
 
 .project-cards{
