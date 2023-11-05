@@ -8,21 +8,24 @@ import NotFound from './NotFound';
 import Projects from './Projects';
 import Contact from './Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <NavBar />
-        <div className="content">
-          <Routes>
-            <Route path = "/my-portfolio" element={<Home/>} />
-            <Route path = "/about" element={<About />} />
-            <Route path = "/projects" element={<Projects />} />
-            <Route path = "/contact" element={<Contact />} />
-            <Route path = "*" element={<NotFound/>} />
-          </Routes>
-        </div>
+        <Container>
+          <div className="content">
+            <Routes>
+              <Route path = "/my-portfolio" element={<Home/>} />
+              <Route path = "/about" element={<About />} />
+              <Route path = "/projects" element={<Projects />} />
+              <Route path = "/contact" element={<Contact />} />
+              <Route path = "*" element={<NotFound/>} />
+            </Routes>
+          </div>
+        </Container>
       </div>
     </BrowserRouter>
   );
