@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import proj1Img from '../images/proj1.jpg';
 import proj2Img from '../images/proj2.jpg';
+import proj3Img from '../images/proj3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faCodepen, faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons';
 import "../styles/Projects.css";
@@ -26,22 +27,28 @@ const Projects = () => {
             </div>
             <hr/>
             <div className="projects">
-                <p>Some of my recent</p>
-                <h2>PROJECTS</h2>
-                <div className="project-cards">
-                    <ProjectCard 
-                        title="Engineer's Portfolio"
-                        cover={proj1Img}
-                        description="A website I made for an engineer..."
-                        link="https://ritace7.github.io/iammanish.github.io/"
-                    />
-                    <ProjectCard 
-                        title="React Facts Page"
-                        cover={proj2Img}
-                        description="A react website that toggles between light mode and dark mode..."
-                        link="https://ritace7.github.io/react-facts/"
-                    />
-                </div>
+                    <p>Some of my recent</p>
+                    <h2>PROJECTS</h2>
+                    <div className="project-cards">
+                        <ProjectCard 
+                            title="Engineer's Portfolio"
+                            cover={proj1Img}
+                            description="A website I made for an engineer..."
+                            link="https://ritace7.github.io/iammanish.github.io/"
+                            />
+                        <ProjectCard 
+                            title="React Facts Page"
+                            cover={proj2Img}
+                            description="A react website that toggles between light mode and dark mode..."
+                            link="https://ritace7.github.io/react-facts/"
+                            />
+                        <ProjectCard 
+                            title="Calcus the calculator"
+                            cover={proj3Img}
+                            description="A calculator built using React, Redux and Bootstrap"
+                            link="https://ritace7.github.io/calcus/"
+                            />
+                    </div>
             </div>
         </div>
     );
