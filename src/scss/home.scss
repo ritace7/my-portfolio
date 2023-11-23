@@ -1,0 +1,41 @@
+@import './variables';
+
+.home-page{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    img{
+        width: 26%;
+        height: 100%;
+        margin-right: 0.8em;
+    }   
+}
+
+.introduction{
+    margin: auto 1.6em;
+    font-size: 3em;
+    width: 26ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    line-height: 2em;
+    
+    p{
+        font-size: 0.8em;
+    }
+}
+    
+.fragments{
+    font-size: 2.2em;
+    color: $color-secondary;
+    vertical-align: bottom;
+}
+
+@keyframes typing{
+    from{
+        width:0
+    }
+}

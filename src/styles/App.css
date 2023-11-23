@@ -1,18 +1,18 @@
-@import "Variables.css";
-
-*{
-    box-sizing: border-box;
-    background-color: var(--color-primary);
-    color: var(--color-text-primary);
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-    font-family: 'Poppins',sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.content{
-    width: 96vw;
-    height: 90vh;
-    margin: auto;
+.App {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
+.content {
+  width: 96vw;
+  height: 90vh;
+  margin: auto;
+}/*# sourceMappingURL=app.css.map */

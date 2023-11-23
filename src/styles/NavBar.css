@@ -1,31 +1,32 @@
-nav{
-    width: 96vw;
-    height: 10vh;
-    margin: auto;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+nav {
+  width: 100vw;
+  height: 10vh;
+  margin: auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #000000;
 }
 
-.nav-logo img{
-    width: 4em;
-    height: 3.4em;
+.nav-logo img {
+  width: 4em;
+  height: 3.4em;
 }
 
-.links{
-    display: flex;
-    justify-content: flex-end;
+.links {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.link-items{
-    list-style: none;
-    text-decoration: none;
-    text-align: center;
-    margin: auto 0.8em;
-    color: var(--color-text-primary);
+.link-items {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  margin: auto 0.8em;
+  color: #ffffff;
 }
 
-.link-items:hover{
-    color: var(--color-secondary);
-    cursor: pointer;
-}
+.link-items:hover {
+  color: #53A7FB;
+  cursor: pointer;
+}/*# sourceMappingURL=navbar.css.map */

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/Contact.css';
+import '../styles/contact.css';
 import { Button,  Col,  Container,  Form, Row } from 'react-bootstrap';
 
 const Contact = () => {

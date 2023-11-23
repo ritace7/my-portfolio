@@ -1,39 +1,37 @@
-.home-page{
-    width: 100%;
-    height: 90vh;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding: 10px;
+.home-page {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-page img {
+  width: 26%;
+  height: 100%;
+  margin-right: 0.8em;
 }
 
-.homeImage{
-    width: 70%;
-    height: 88vh;
+.introduction {
+  margin: auto 1.6em;
+  font-size: 3em;
+  width: 26ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  line-height: 2em;
+}
+.introduction p {
+  font-size: 0.8em;
 }
 
-.introduction{
-    margin: auto 20px;
-    font-size: 2em;
-    width: 26ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    line-height: 70px;
+.fragments {
+  font-size: 2.2em;
+  color: #53A7FB;
+  vertical-align: bottom;
 }
 
-.introduction p{
-    font-size: 0.8em;
-}
-
-.fragments{
-    font-size: 2.2em;
-    color: var(--color-secondary);
-    vertical-align: bottom;
-}
-
-@keyframes typing{
-    from{
-        width:0
-    }
-}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}/*# sourceMappingURL=home.css.map */

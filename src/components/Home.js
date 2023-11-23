@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Home.css'
+import '../styles/home.css'
 import homeImg from '../images/home-img.png'
 
 export default function Home(){
@@ -18,7 +18,7 @@ export default function Home(){
                     <span className='fragments'>&lt;/&gt;</span> 
                 </p>
             </div>
-            <img src={homeImg} alt="home" className="homeImage"/>
+            <img src={homeImg} alt="Home Page Side Image" />
         </div>
     )
 }

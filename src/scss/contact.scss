@@ -1,0 +1,25 @@
+@import './variables';
+
+.contact-socials{
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 2em;
+    text-align: justify;
+}
+
+.header{
+    font-size: 50px;
+    font-weight: 600;
+    color: $color-secondary;
+}
+
+.side-image{
+    width: 40%;        
+    max-height: 40vh;
+    float: right;
+}
+
+hr{
+    border: 3px solid $color-secondary;
+}
