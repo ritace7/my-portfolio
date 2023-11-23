@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import proj1Img from '../images/proj1.jpg';
 import proj2Img from '../images/proj2.jpg';
-import proj3Img from '../images/proj3.jpg';
+import proj3Img from '../images/proj4.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faCodepen, faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons';
 import "../styles/Projects.css";
@@ -43,10 +43,10 @@ const Projects = () => {
                             link="https://ritace7.github.io/react-facts/"
                             />
                         <ProjectCard 
-                            title="Calcus the calculator"
+                            title="Contact App"
                             cover={proj3Img}
-                            description="A calculator built using React, Redux and Bootstrap"
-                            link="https://ritace7.github.io/calcus/"
+                            description="A contact list that makes API calls.."
+                            link="https://ritace7.github.io/contacts/"
                             />
                     </div>
             </div>

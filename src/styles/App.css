@@ -10,4 +10,9 @@
     font-family: 'Poppins',sans-serif;
 }
 
+.content{
+    width: 96vw;
+    height: 90vh;
+    margin: auto;
+}
 
