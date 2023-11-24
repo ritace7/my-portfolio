@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/contact.css';
 import { Button,  Col,  Container,  Form, Row } from 'react-bootstrap';
 
 const Contact = () => {
@@ -15,7 +14,7 @@ const Contact = () => {
                     <h2 className="header">Contact Me</h2>
                     <p>Valar Morghulis! Do you speak High Valyrian? </p>
                     <p>It's OK if you don't. I speak English too.</p>
-                    <div className="social-icons d-flex">
+                    <div className="social-icons contact-social-icons d-flex">
                         <a href="https://www.facebook.com/bassboyrit.ace/" target="_blank" rel="noreferrer" >
                             <FontAwesomeIcon icon={faFacebook} className="social-icons-logo me-5"/>
                         </a>

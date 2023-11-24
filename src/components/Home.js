@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/home.css'
 import homeImg from '../images/home-img.png'
 
 export default function Home(){

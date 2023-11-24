@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/about.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faKeyboard, faLanguage, faFutbol } from '@fortawesome/free-solid-svg-icons';
 import SkillRatings from './SkillRatings';

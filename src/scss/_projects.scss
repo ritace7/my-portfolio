@@ -1,4 +1,5 @@
-@import './variables';
+@import './config';
+@import './projectcard';
 
 .project-section{
     height: 90vh;
@@ -17,11 +18,12 @@
 .social-icons-logo{
     font-size: 2.6em;
     color: $color-text-primary;
-}
+    @include transition-ease;
 
-.social-icons-logo:hover{
-  transform: scale(1.4);
-  color: $color-secondary;
+    &:hover{
+        transform: scale(1.4);
+        color: $color-secondary;
+    }
 }
 
 .project-cards{

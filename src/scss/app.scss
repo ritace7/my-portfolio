@@ -1,5 +1,11 @@
-@import './resets';
-@import './variables';
+@import './config';
+@import './responsive';
+@import './home.scss';
+@import './about.scss';
+@import './projects';
+@import './contact';
+@import './navbar';
+
 
 .App{
     background-color: $color-primary;
@@ -9,8 +15,9 @@
 }
 
 .content{
-    width: 96vw;
-    height: 90vh;
+    width: 100vw;
+    height: 93vh;
     margin: auto;
+    padding: 1rem;
 }
 

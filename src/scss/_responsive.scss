@@ -1,0 +1,27 @@
+@include media-md{
+
+    .navbar{        
+        .navbar-btn{
+            visibility: hidden;
+        }
+
+        .nav{
+            visibility: visible;
+            background-color: $color-primary;
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+
+            .nav-logo img{
+                visibility: visible;
+            }
+
+            .links{
+                height: 100%;
+                width: 40%;
+                transform: translateY(0);
+                flex-flow: nowrap;
+            }
+        }    
+    }
+}

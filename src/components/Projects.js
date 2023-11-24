@@ -5,7 +5,6 @@ import proj2Img from '../images/proj2.jpg';
 import proj3Img from '../images/proj4.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faCodepen, faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons';
-import "../styles/projects.css";
 
 const Projects = () => {
     return (  
