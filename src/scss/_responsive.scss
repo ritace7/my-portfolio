@@ -25,3 +25,137 @@
         }    
     }
 }
+
+@include media-lg{
+    .introduction{
+        margin: auto 1.2em;
+        font-size: 2em;
+        width: 22ch;
+        animation: typing 2s steps(18), blink .5s step-end infinite alternate;
+        border-right: 1em solid;
+        line-height: 1.6em;
+
+        p{
+            font-size: 0.3em;
+        }
+
+        .fragments{
+            font-size: 1.4em;
+        }
+    }
+}
+
+@include media-sm{
+
+    .about-section{
+        overflow: auto;
+        
+        .about-details{
+            display: block;
+            .description{
+                display: block;
+                width: 100%;
+            }    
+        } 
+    }
+
+    .project-section{
+        .projects{
+            .project-cards{
+                grid-auto-columns: 50%;
+                padding: 0 0.4rem 1rem;
+
+                .project-card{
+                    width: 90%;
+                    
+                    .card-pullup{
+                        padding: 0 0.4em;
+
+                        .card-title{
+                            font-weight: 500;
+                            margin-bottom: 1em;
+                        }
+                        
+                        .card-description{
+                            font-size: 1.2em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .contact{
+        overflow: auto;
+        font-size: 15px;
+        text-align: justify;
+
+        .contact-socials{
+            padding: 0;
+            background-image: url(../images/contact-img.png);
+            background-position: right;
+            background-size: 40%;
+            background-repeat: no-repeat;
+
+            img{
+                visibility: hidden;
+            }
+            .header{
+                font-size: 28px;
+            }
+
+            .contact-social-icons{
+                font-size: 0.5em;
+                margin-top: 0;
+            }
+        }    
+
+        .sub-header{
+            font-size: 20px;
+        }
+    }
+}
+
+@include media-xs{
+
+    .home-page{
+        background-image: url('../images/home-img.png');
+        background-position: top left 5em;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+
+        img{
+            display: none;
+        }
+        
+        .introduction{
+            margin: auto;
+            font-size: 1.6em;
+            width: 26ch;
+            animation: typing 2s steps(18), blink .5s step-end infinite alternate;
+            border-right: 2px solid;
+            position: fixed;
+            top: 10;
+            line-height: 1em;
+            
+            p{
+                font-size: 0.6em;
+            }
+            
+            .fragments{
+                font-size: 1.4em;
+            }
+        }
+    }
+        
+    .project-section{
+        padding: 10px 0;
+
+        h2{
+            height: 0.4em;
+            font-size: 1.4rem !important;
+            margin:  0;
+        }
+    }
+}

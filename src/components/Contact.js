@@ -38,7 +38,7 @@ const Contact = () => {
                 <h2 className="sub-header">Send me an email</h2>
                 <Form className="mb-2">
                     <Row>
-                        <Col className='col-5 col-lg-6'>
+                        <Col className='col-12 col-md-5 col-lg-6' >
                             <Form.Group className="mb-2" controlId="formSenderName">
                                 <Form.Label>Your Name:</Form.Label>
                                 <Form.Control required type="text" placeholder="Enter Your Name" />
@@ -48,10 +48,10 @@ const Contact = () => {
                                 <Form.Control required  type="email" placeholder="Enter Your Email" />
                             </Form.Group>
                         </Col>
-                        <Col className='col-7 col-lg-6'>
+                        <Col className='col-12 col-md-7 col-lg-6'>
                             <Form.Group className="mb-3" controlId="formSenderText">
                                 <Form.Label>Your Message:</Form.Label>
-                                <Form.Control as="textarea" style={{height: '145px'}}/>
+                                <Form.Control as="textarea" style={{height: '130px'}}/>
                             </Form.Group>
                         </Col>
                         <Button variant="outline-primary" type="submit" id="submitButton" >Send</Button>

@@ -21,13 +21,19 @@ $color-text-secondary: #C5C6C7;
 }
 
 @mixin media-lg{
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1600px) {
         @content;
     }
 }
 
-@mixin media-xl{
-    @media screen and (min-width: 1600px) {
+@mixin media-sm{
+    @media screen and (max-width: 600px) {
+        @content;
+    }
+}
+
+@mixin media-xs{
+    @media screen and (max-width: 450px) {
         @content;
     }
 }

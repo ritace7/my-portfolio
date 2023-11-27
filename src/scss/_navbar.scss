@@ -77,7 +77,6 @@
         display: flex;
         flex-flow: column wrap;
         align-items: center;
-        justify-content: center;
         width: 100vw;
         height: 100vh;
         overflow: hidden;
@@ -102,7 +101,7 @@
     list-style: none;
     text-decoration: none;
     text-align: center;
-    margin: auto;
+    margin: 2.4em auto;
     color: $color-text-primary;
     @include transition-ease;
 
