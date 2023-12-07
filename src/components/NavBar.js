@@ -19,9 +19,6 @@ export default function NavBar(){
             setNavClass("nav");
             setLinksClass("links");
         }
-        console.log(hamburgerClass);
-        console.log(navClass);
-        console.log(linksClass);
     }
 
     return(

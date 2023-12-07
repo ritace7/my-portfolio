@@ -1,10 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faCodepen, faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons';
-import CardCarousel from './CardCarousel';
+import CardCarousel from '../components/CardCarousel';
 
 const Projects = () => {
-    return (  
+   return (  
         <div className="project-section">
             <div className="certifications">
                 <p>Check out my</p>

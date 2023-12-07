@@ -17,7 +17,7 @@ export default function Home(){
                     <span className='fragments'>&lt;/&gt;</span> 
                 </p>
             </div>
-            <img src={homeImg} alt="Home Page Side Image" />
+            <img src={homeImg} alt="Home Page Side" />
         </div>
     )
 }

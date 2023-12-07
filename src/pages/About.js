@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faKeyboard, faLanguage, faFutbol } from '@fortawesome/free-solid-svg-icons';
-import SkillRatings from './SkillRatings';
+import SkillRatings from '../components/SkillRatings';
 
 export default function About(){
     return(
