@@ -1,12 +1,7 @@
 import React from 'react';
-import ProjectCard from './ProjectCard';
-import proj1Img from '../images/proj1.jpg';
-import proj2Img from '../images/proj2.jpg';
-import proj3Img from '../images/proj3.jpg';
-import proj4Img from '../images/proj4.jpg';
-import proj5Img from '../images/proj5.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faCodepen, faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons';
+import CardCarousel from './CardCarousel';
 
 const Projects = () => {
     return (  
@@ -30,38 +25,7 @@ const Projects = () => {
             <div className="projects">
                     <p>Some of my recent</p>
                     <h2>PROJECTS</h2>
-                    <div className="project-cards">
-                        <ProjectCard 
-                            title="MCU Info Page"
-                            cover={proj5Img}
-                            description="An info page that call Marvel's API.."
-                            link="https://ritace7.github.io/mcu-app/"
-                        />
-                        <ProjectCard 
-                            title="React Facts Page"
-                            cover={proj2Img}
-                            description="A react website that toggles between light mode and dark mode..."
-                            link="https://ritace7.github.io/react-facts/"
-                        />
-                        <ProjectCard 
-                            title="Calcus the Calculator"
-                            cover={proj3Img}
-                            description="An animated calculator built on React Redux.."
-                            link="https://ritace7.github.io/calcus/"
-                        />
-                        <ProjectCard 
-                            title="Engineer's Portfolio"
-                            cover={proj1Img}
-                            description="A website I made for an engineer..."
-                            link="https://ritace7.github.io/iammanish.github.io/"
-                        />
-                        <ProjectCard 
-                            title="Contact App"
-                            cover={proj4Img}
-                            description="A contact list that makes API calls.."
-                            link="https://ritace7.github.io/contacts/"
-                        />
-                    </div>
+                    <CardCarousel/>                    
             </div>
         </div>
     );
