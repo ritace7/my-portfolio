@@ -17,13 +17,15 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        handleShow();
-        emailjs.sendForm('service_ixdnk8m', 'template_rzrrb7j', form.current, 'iYed9T9aoUFle6ZwS')
+        
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
         .then((result) => {
             setModalText("Email Sent");
         }, (error) => {
             setModalText("Failed to send");
         });
+
+        handleShow();
     };
 
     return (

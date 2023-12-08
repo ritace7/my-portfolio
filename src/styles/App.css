@@ -4,7 +4,11 @@
   padding: 0;
 }
 
-@media screen and (min-width: 768px) {
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
   .navbar .navbar-btn {
     visibility: hidden;
   }
@@ -20,12 +24,10 @@
   }
   .navbar .nav .links {
     height: 100%;
-    width: 40%;
+    width: 46%;
     transform: translateY(0);
     flex-flow: nowrap;
   }
-}
-@media screen and (max-width: 1600px) {
   .introduction {
     margin: auto 1.2em;
     font-size: 2em;
@@ -41,16 +43,37 @@
     font-size: 1.4em;
   }
 }
+@media screen and (min-width: 768px) {
+  .about-section .skills .skill-rating {
+    width: 90%;
+  }
+}
 @media screen and (max-width: 600px) {
-  .about-section {
-    overflow: auto;
-  }
-  .about-section .about-details {
-    display: block;
-  }
-  .about-section .about-details .description {
-    display: block;
+  .home-page {
+    background-image: url("../images/home-img.png");
+    background-position: top right -5em;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
+  }
+  .home-page img {
+    display: none;
+  }
+  .home-page .introduction {
+    margin: auto 0.4em;
+    font-size: 1.6em;
+    width: 18ch;
+    animation: typing 2s steps(18), blink 0.5s step-end infinite alternate;
+    border-right: 2px solid;
+    position: fixed;
+    top: 10;
+    line-height: 1em;
+  }
+  .home-page .introduction p {
+    font-size: 0.6em;
+  }
+  .home-page .introduction .fragments {
+    font-size: 1.4em;
   }
   .project-section .projects .project-cards {
     grid-auto-columns: 50%;
@@ -107,9 +130,9 @@
     display: none;
   }
   .home-page .introduction {
-    margin: auto;
+    margin: auto 0.4em;
     font-size: 1.6em;
-    width: 26ch;
+    width: 18ch;
     animation: typing 2s steps(18), blink 0.5s step-end infinite alternate;
     border-right: 2px solid;
     position: fixed;
@@ -130,11 +153,33 @@
     font-size: 1.4rem !important;
     margin: 0;
   }
+  .about-section {
+    overflow: auto;
+  }
+  .about-section .about-details {
+    display: block;
+  }
+  .about-section .about-details .description {
+    display: block;
+    width: 100%;
+  }
+  .about-section .skills {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+  .about-section .skills .skill-rating {
+    width: 90%;
+  }
 }
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .home-page {
@@ -145,14 +190,14 @@
 }
 .home-page img {
   width: 26%;
-  height: 100%;
+  height: 90vh;
   margin-right: 0.8em;
 }
 
 .introduction {
   margin: auto 1.6em;
   font-size: 3em;
-  width: 26ch;
+  width: 24ch;
   animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -180,15 +225,25 @@
   padding: 0;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .about-section {
   height: 90vh;
-  padding: 10px 15px;
+  padding: 1em 2em;
   text-align: justify;
 }
 .about-section h2 {
-  font-size: 50px;
+  font-size: 2em;
   font-weight: 600;
   color: #53A7FB;
+}
+
+.sub-header {
+  font-size: 1.4em;
+  margin-bottom: 0.6em;
+  color: #C5C6C7;
 }
 
 .about-details {
@@ -196,14 +251,8 @@
   grid-template-columns: 1.8fr 1fr;
 }
 
-.sub-header {
-  font-size: 2em;
-  margin-bottom: 0.6em;
-  color: #C5C6C7;
-}
-
 .about-section ul {
-  padding-left: 0;
+  padding-left: 2.3em;
 }
 
 .about-section ul li {
@@ -212,7 +261,7 @@
 }
 
 .about-icons {
-  font-size: 35px;
+  font-size: 1.4em;
   margin-right: 10px;
   transform: rotate(-45deg);
 }
@@ -226,7 +275,11 @@
 }
 
 .skills {
+  display: flex;
+  flex-direction: column;
   margin: auto;
+  margin-right: 0;
+  width: 90%;
 }
 
 .circle-container {
@@ -249,10 +302,18 @@
   padding: 0;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .project-card {
@@ -262,7 +323,7 @@
   position: relative;
   overflow: hidden;
   box-shadow: 0.1em 0.1em 0.4em #53A7FB;
-  width: 65%;
+  width: 70%;
 }
 .project-card:hover .card-img {
   transform: scale(1.1);
@@ -292,7 +353,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 30px;
+  padding: 0 20px;
   text-align: center;
   transition: height 0.5s;
 }
@@ -326,12 +387,12 @@
 
 .project-section {
   height: 90vh;
-  padding: 15px 0;
+  padding: 1em 1.1em;
   text-align: center;
   line-height: 10px;
 }
 .project-section h2 {
-  font-size: 30px;
+  font-size: 1.4em;
   margin: 0.9em 0;
   line-height: 10px;
   color: #53A7FB;
@@ -347,7 +408,7 @@
   transition: all 0.4s ease-in-out;
 }
 .social-icons-logo:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
   color: #53A7FB;
 }
 
@@ -361,6 +422,14 @@
   padding: 0;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.contact {
+  padding: 1em 1.1em;
+}
+
 .contact-socials {
   padding: 10px 15px 0 15px;
   display: grid;
@@ -369,7 +438,7 @@
 }
 
 .header {
-  font-size: 50px;
+  font-size: 2em;
   font-weight: 600;
   color: #53A7FB;
 }
@@ -394,11 +463,16 @@ hr {
   padding: 0;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .navbar {
   position: fixed;
   z-index: 2;
-  width: 100%;
-  height: 7vh;
+  width: 100vw;
+  height: 10vh;
+  font-size: 1.4em;
 }
 
 .navbar-btn {
@@ -476,8 +550,8 @@ hr {
 }
 
 .nav-logo img {
-  width: 4em;
-  height: 3.4em;
+  width: 6vw;
+  height: 10vh;
   visibility: hidden;
 }
 
@@ -491,20 +565,30 @@ hr {
 }
 .link-items:hover {
   color: #53A7FB;
-  transform: scale(1.4);
+  transform: scale(1.3);
   cursor: pointer;
 }
 
 .App {
   background-color: #000000;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1em;
   font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  overflow: auto;
 }
 
 .content {
-  width: 100vw;
-  height: 93vh;
-  margin: auto;
-  padding: 1rem;
+  width: 100%;
+  height: 90vh;
+  margin: 0 auto;
+  overflow: auto;
+  position: relative;
+  top: 10vh;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
 }/*# sourceMappingURL=app.css.map */

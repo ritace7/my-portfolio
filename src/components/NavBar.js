@@ -30,12 +30,12 @@ export default function NavBar(){
             <nav className={navClass}>    
                 <section className="nav-logo">
                     <Link to="my-portfolio">
-                            <img
-                                alt=""
-                                src={logo}
-                                width="50"
-                                height="50"
-                            />      
+                        <img
+                            alt=""
+                            src={logo}
+                            width="50"
+                            height="50"
+                        />      
                     </Link>
                 </section>
 

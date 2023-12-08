@@ -1,5 +1,9 @@
 @import './config';
 
+.contact{
+    padding: 1em 1.1em;
+}
+
 .contact-socials{
     padding: 10px 15px 0 15px;
     display: grid;
@@ -8,7 +12,7 @@
 }
 
 .header{
-    font-size: 50px;
+    font-size: $font-size-header;
     font-weight: 600;
     color: $color-secondary;
 }

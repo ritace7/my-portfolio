@@ -1,5 +1,4 @@
-@include media-md{
-
+@include media-lg{
     .navbar{        
         .navbar-btn{
             visibility: hidden;
@@ -18,15 +17,13 @@
 
             .links{
                 height: 100%;
-                width: 40%;
+                width: 46%;
                 transform: translateY(0);
                 flex-flow: nowrap;
             }
         }    
     }
-}
 
-@include media-lg{
     .introduction{
         margin: auto 1.2em;
         font-size: 2em;
@@ -45,19 +42,50 @@
     }
 }
 
-@include media-sm{
-
+@include media-md{
     .about-section{
-        overflow: auto;
+        .skills{
         
-        .about-details{
-            display: block;
-            .description{
-                display: block;
-                width: 100%;
-            }    
-        } 
+            .skill-rating{
+                width: 90%;
+
+            }
+        }
     }
+}
+
+@include media-sm{
+    .home-page{
+        background-image: url('../images/home-img.png');
+        background-position: top right -5em;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+
+        img{
+            display: none;
+        }
+        
+        .introduction{
+            margin: auto 0.4em;
+            font-size: 1.6em;
+            width: 18ch;
+            animation: typing 2s steps(18), blink .5s step-end infinite alternate;
+            border-right: 2px solid;
+            position: fixed;
+            top: 10;
+            line-height: 1em;
+            
+            p{
+                font-size: 0.6em;
+            }
+            
+            .fragments{
+                font-size: 1.4em;
+            }
+        }
+    }
+
 
     .project-section{
         .projects{
@@ -117,7 +145,6 @@
 }
 
 @include media-xs{
-
     .home-page{
         background-image: url('../images/home-img.png');
         background-position: top left 5em;
@@ -130,9 +157,9 @@
         }
         
         .introduction{
-            margin: auto;
+            margin: auto 0.4em;
             font-size: 1.6em;
-            width: 26ch;
+            width: 18ch;
             animation: typing 2s steps(18), blink .5s step-end infinite alternate;
             border-right: 2px solid;
             position: fixed;
@@ -156,6 +183,29 @@
             height: 0.4em;
             font-size: 1.4rem !important;
             margin:  0;
+        }
+    }
+
+    .about-section{
+        overflow: auto;
+        
+        .about-details{
+            display: block;
+            .description{
+                display: block;
+                width: 100%;
+            }    
+        } 
+
+        .skills{
+            display: block;
+            margin: 0;
+            width: 100%;        
+        
+            .skill-rating{
+                width: 90%;
+
+            }
         }
     }
 }

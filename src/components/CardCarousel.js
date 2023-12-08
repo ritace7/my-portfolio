@@ -33,41 +33,41 @@ const CardCarousel = () => {
     return ( 
         <Carousel responsive={responsive}  showDots={true} className='project-cards'>
              <ProjectCard 
-                            title="Todo App"
-                            cover={proj4Img}
-                            description="A full stack MERN app with a unique todo list for every user.."
-                            link="https://todo-list-server-wzzf.onrender.com"
-                        />
-                        <ProjectCard 
-                            title="MCU Info Page"
-                            cover={proj5Img}
-                            description="An info page that displays characters based on Marvel's API.."
-                            link="https://ritace7.github.io/mcu-app/"
-                        />
-                        <ProjectCard 
-                            title="Tenzies game"
-                            cover={proj6Img}
-                            description="A simple app that replicates the Tenzies game.."
-                            link="https://ritace7.github.io/tenzies/"
-                        />
-                        <ProjectCard 
-                            title="React Facts Page"
-                            cover={proj2Img}
-                            description="A react website that toggles between light mode and dark mode..."
-                            link="https://ritace7.github.io/react-facts/"
-                        />
-                        <ProjectCard 
-                            title="Calcus the Calculator"
-                            cover={proj3Img}
-                            description="An animated calculator built on React Redux.."
-                            link="https://ritace7.github.io/calcus/"
-                        />
-                        <ProjectCard 
-                            title="Engineer's Portfolio"
-                            cover={proj1Img}
-                            description="A website I made for an engineer..."
-                            link="https://ritace7.github.io/iammanish.github.io/"
-                        />
+                  title="Todo App"
+                  cover={proj4Img}
+                  description="A full stack MERN app with a unique todo list for every user.."
+                  link="https://todo-list-server-wzzf.onrender.com"
+              />
+              <ProjectCard 
+                  title="MCU Info Page"
+                  cover={proj5Img}
+                  description="An info page that displays characters based on Marvel's API.."
+                  link="https://ritace7.github.io/mcu-app/"
+              />
+              <ProjectCard 
+                  title="Tenzies game"
+                  cover={proj6Img}
+                  description="A simple app that replicates the Tenzies game.."
+                  link="https://ritace7.github.io/tenzies/"
+              />
+              <ProjectCard 
+                  title="React Facts Page"
+                  cover={proj2Img}
+                  description="A react website that toggles between light mode and dark mode..."
+                  link="https://ritace7.github.io/react-facts/"
+              />
+              <ProjectCard 
+                  title="Calcus the Calculator"
+                  cover={proj3Img}
+                  description="An animated calculator built on React Redux.."
+                  link="https://ritace7.github.io/calcus/"
+              />
+              <ProjectCard 
+                  title="Engineer's Portfolio"
+                  cover={proj1Img}
+                  description="A website I made for an engineer..."
+                  link="https://ritace7.github.io/iammanish.github.io/"
+              />
         </Carousel>
      );
 }

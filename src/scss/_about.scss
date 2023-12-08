@@ -2,14 +2,21 @@
 
 .about-section{
     height: 90vh;
-    padding: 10px 15px;
+    padding: 1em 2em;
     text-align: justify;
     
     h2{
-        font-size: 50px;
+        font-size: $font-size-header;
         font-weight: 600;
         color: $color-secondary;
     }
+}
+
+.sub-header{
+    font-size: $font-size-sub-header;
+    margin-bottom: 0.6em;
+    color: $color-text-secondary;
+
 }
 
 .about-details{
@@ -17,15 +24,8 @@
     grid-template-columns: 1.8fr 1fr;
 }
 
-.sub-header{
-    font-size: 2em;
-    margin-bottom: 0.6em;
-    color: $color-text-secondary;
-
-}
-
 .about-section ul{
-    padding-left: 0;
+    padding-left: 2.3em;
 }
 
 .about-section ul li{
@@ -34,7 +34,7 @@
 }
 
 .about-icons{
-    font-size: 35px;
+    font-size: $font-size-sub-header;
     margin-right: 10px;
     transform: rotate(-45deg);
 }
@@ -48,7 +48,12 @@
 }
 
 .skills{
+    display: flex;
+    flex-direction: column;
     margin: auto;
+    margin-right: 0;
+    width: 90%;
+
 }
 
 .circle-container{
