@@ -8,6 +8,7 @@ import proj3Img from '../images/proj3.jpg';
 import proj4Img from '../images/proj4.jpg';
 import proj5Img from '../images/proj5.jpg';
 import proj6Img from '../images/proj6.jpg';
+import proj7Img from '../images/proj7.jpg';
 
 const CardCarousel = () => {
     const responsive = {
@@ -37,6 +38,12 @@ const CardCarousel = () => {
                   cover={proj4Img}
                   description="A full stack MERN app with a unique todo list for every user.."
                   link="https://todo-list-server-wzzf.onrender.com"
+              />
+             <ProjectCard 
+                  title="Hangman"
+                  cover={proj7Img}
+                  description="The classic Hangman Game built on Typescript & React.."
+                  link="https://ritace7.github.io/hangman/"
               />
               <ProjectCard 
                   title="MCU Info Page"
