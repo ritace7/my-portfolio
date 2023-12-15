@@ -4,11 +4,11 @@ import 'react-multi-carousel/lib/styles.css';
 import ProjectCard from './ProjectCard';
 import proj1Img from '../images/proj1.jpg';
 import proj2Img from '../images/proj2.jpg';
-import proj3Img from '../images/proj3.jpg';
 import proj4Img from '../images/proj4.jpg';
 import proj5Img from '../images/proj5.jpg';
 import proj6Img from '../images/proj6.jpg';
 import proj7Img from '../images/proj7.jpg';
+import proj8Img from '../images/proj8.jpg';
 
 const CardCarousel = () => {
     const responsive = {
@@ -33,11 +33,18 @@ const CardCarousel = () => {
 
     return ( 
         <Carousel responsive={responsive}  showDots={true} className='project-cards'>
+             
              <ProjectCard 
                   title="Todo App"
                   cover={proj4Img}
                   description="A full stack MERN app with a unique todo list for every user.."
                   link="https://todo-list-server-wzzf.onrender.com"
+              />
+             <ProjectCard 
+                  title="Shopping Cart"
+                  cover={proj8Img}
+                  description="An e-store cart build on Typescript React, SASS and Bootstrap.."
+                  link="https://ritace7.github.io/dummy-store/"
               />
              <ProjectCard 
                   title="Hangman"
@@ -62,12 +69,6 @@ const CardCarousel = () => {
                   cover={proj2Img}
                   description="A react website that toggles between light mode and dark mode..."
                   link="https://ritace7.github.io/react-facts/"
-              />
-              <ProjectCard 
-                  title="Calcus the Calculator"
-                  cover={proj3Img}
-                  description="An animated calculator built on React Redux.."
-                  link="https://ritace7.github.io/calcus/"
               />
               <ProjectCard 
                   title="Engineer's Portfolio"

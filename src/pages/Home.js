@@ -9,7 +9,7 @@ export default function Home(){
                     <span className='fragments'>&lt;&gt;</span>                
                         Hello, World!                                   
                 </p>
-                <p>I'm <span className='fragments'>Hritesh</span> Shrestha</p>
+                <p title='name'>I'm <span className='fragments'>Hritesh</span> Shrestha</p>
                 <p>
                     Web Developer 
                     <span className='fragments'>|</span>
@@ -17,7 +17,7 @@ export default function Home(){
                     <span className='fragments'>&lt;/&gt;</span> 
                 </p>
             </div>
-            <img src={homeImg} alt="Home Page Side" />
+            <img src={homeImg} alt="Home Page Side"/>
         </div>
     )
 }

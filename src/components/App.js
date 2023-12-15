@@ -16,7 +16,9 @@ function App() {
           <NavBar />
           <div className="content">
               <Routes>
-                <Route path = "/my-portfolio" element={<Home/>} />
+                {["/", "/home", "/my-portfolio"].map((path) => 
+                  <Route path = {path} element={<Home/>} />
+                )}
                 <Route path = "/about" element={<About />} />
                 <Route path = "/projects" element={<Projects />} />
                 <Route path = "/contact" element={<Contact />} />
