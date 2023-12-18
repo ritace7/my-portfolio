@@ -4,6 +4,7 @@ import 'react-multi-carousel/lib/styles.css';
 import ProjectCard from './ProjectCard';
 import proj1Img from '../images/proj1.jpg';
 import proj2Img from '../images/proj2.jpg';
+import proj3Img from '../images/proj3.jpg';
 import proj4Img from '../images/proj4.jpg';
 import proj5Img from '../images/proj5.jpg';
 import proj6Img from '../images/proj6.jpg';
@@ -45,6 +46,12 @@ const CardCarousel = () => {
                   cover={proj8Img}
                   description="An e-store cart build on Typescript React, SASS and Bootstrap.."
                   link="https://ritace7.github.io/dummy-store/"
+              />
+             <ProjectCard 
+                  title="Pokedex"
+                  cover={proj3Img}
+                  description="A REST API project built using the MERN stack.."
+                  link="https://pokedex-ej13.onrender.com/"
               />
              <ProjectCard 
                   title="Hangman"
