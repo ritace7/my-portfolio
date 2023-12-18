@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.1c882ed6.css",
-    "main.js": "/my-portfolio/static/js/main.11b44d92.js",
+    "main.js": "/my-portfolio/static/js/main.9b961d63.js",
     "static/media/home-img.png": "/my-portfolio/static/media/home-img.d28225ce44b23ba4b7f8.png",
     "static/media/contact-img.png": "/my-portfolio/static/media/contact-img.bb4359a2220eaaa61146.png",
     "static/media/proj5.jpg": "/my-portfolio/static/media/proj5.f5fc505feed7b70e21a6.jpg",
     "static/media/proj8.jpg": "/my-portfolio/static/media/proj8.e9d5bc3859a9f0664ef6.jpg",
     "static/media/proj1.jpg": "/my-portfolio/static/media/proj1.093e11dbf5e7b045903e.jpg",
+    "static/media/proj3.jpg": "/my-portfolio/static/media/proj3.dbd7498ed36371998693.jpg",
     "static/media/proj2.jpg": "/my-portfolio/static/media/proj2.ae0e17c2cf98e2fdbd7d.jpg",
     "static/media/proj6.jpg": "/my-portfolio/static/media/proj6.cac4c66b35de8b8e31a3.jpg",
     "static/media/proj7.jpg": "/my-portfolio/static/media/proj7.d0debe49498460f11687.jpg",
@@ -17,10 +18,10 @@
     "static/media/revicons.woff": "/my-portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/my-portfolio/index.html",
     "main.1c882ed6.css.map": "/my-portfolio/static/css/main.1c882ed6.css.map",
-    "main.11b44d92.js.map": "/my-portfolio/static/js/main.11b44d92.js.map"
+    "main.9b961d63.js.map": "/my-portfolio/static/js/main.9b961d63.js.map"
   },
   "entrypoints": [
     "static/css/main.1c882ed6.css",
-    "static/js/main.11b44d92.js"
+    "static/js/main.9b961d63.js"
   ]
 }
