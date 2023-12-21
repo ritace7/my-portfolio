@@ -9,7 +9,6 @@ import proj4Img from '../images/proj4.jpg';
 import proj5Img from '../images/proj5.jpg';
 import proj6Img from '../images/proj6.jpg';
 import proj7Img from '../images/proj7.jpg';
-import proj8Img from '../images/proj8.jpg';
 
 const CardCarousel = () => {
     const responsive = {
@@ -31,9 +30,15 @@ const CardCarousel = () => {
           items: 1
         }
       };
-
-    return ( 
+      
+      return ( 
         <Carousel responsive={responsive}  showDots={true} className='project-cards'>
+            <ProjectCard 
+                title="Dummy Store"
+                cover={proj1Img}
+                description="A MERN app which provides the basic functionalities of an e-store.."
+                link="https://dummy-store.onrender.com/"
+            />
              
              <ProjectCard 
                   title="Todo App"
@@ -41,12 +46,7 @@ const CardCarousel = () => {
                   description="A full stack MERN app with a unique todo list for every user.."
                   link="https://todo-list-server-wzzf.onrender.com"
               />
-             <ProjectCard 
-                  title="Shopping Cart"
-                  cover={proj8Img}
-                  description="An e-store cart build on Typescript React, SASS and Bootstrap.."
-                  link="https://ritace7.github.io/dummy-store/"
-              />
+
              <ProjectCard 
                   title="Pokedex"
                   cover={proj3Img}
@@ -76,12 +76,6 @@ const CardCarousel = () => {
                   cover={proj2Img}
                   description="A react website that toggles between light mode and dark mode..."
                   link="https://ritace7.github.io/react-facts/"
-              />
-              <ProjectCard 
-                  title="Engineer's Portfolio"
-                  cover={proj1Img}
-                  description="A website I made for an engineer..."
-                  link="https://ritace7.github.io/iammanish.github.io/"
               />
         </Carousel>
      );
