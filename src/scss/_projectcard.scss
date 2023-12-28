@@ -70,3 +70,19 @@
     border-radius: 50%;
     text-align: center;
 }
+
+.card-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    a{
+        color: white;
+        background-color: transparent;
+        font-size: 3em;
+
+        &:hover{
+            color: $color-secondary;
+        }
+    }
+}

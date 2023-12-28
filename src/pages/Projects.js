@@ -10,13 +10,13 @@ const Projects = () => {
                 <p>Check out my</p>
                 <h2>CERTIFICATIONS & SKILLS</h2>
                 <div className="social-icons d-flex justify-content-evenly">
-                    <a href="https://github.com/ritace7" target="_blank" rel="noreferrer">
+                    <a title="Github" href="https://github.com/ritace7" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faGithub} className="social-icons-logo"/>
                     </a>
-                    <a href="https://codepen.io/ritace7" target="_blank" rel="noreferrer">
+                    <a title="CodePen" href="https://codepen.io/ritace7" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faCodepen} className="social-icons-logo"/>
                     </a>
-                    <a href="https://www.freecodecamp.org/fcc8324296a-444b-4ac9-aa2c-e4c3911221fa" target="_blank" rel="noreferrer">
+                    <a title="Free Code Camp" href="https://www.freecodecamp.org/fcc8324296a-444b-4ac9-aa2c-e4c3911221fa" target="_blank" rel="noreferrer">
                          <FontAwesomeIcon icon={faFreeCodeCamp} className="social-icons-logo"/>
                     </a>
                 </div>

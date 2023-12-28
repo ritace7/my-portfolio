@@ -1,11 +1,11 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import sideImage from "../images/contact-img.png";
+import { socials } from '../constants';
+import { Button,  Col,  Container,  Form, Row, Modal } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button,  Col,  Container,  Form, Row, Modal } from 'react-bootstrap';
 
 const Contact = () => {
     const form = useRef();
@@ -36,18 +36,11 @@ const Contact = () => {
                     <p>Valar Morghulis! Do you speak High Valyrian? </p>
                     <p>It's OK if you don't. I speak English too.</p>
                     <div className="social-icons contact-social-icons d-flex">
-                        <a href="https://www.facebook.com/bassboyrit.ace/" target="_blank" rel="noreferrer" >
-                            <FontAwesomeIcon icon={faFacebook} className="social-icons-logo me-5"/>
-                        </a>
-                        <a href="https://www.instagram.com/rit.ace_sresta/" target="_blank" rel="noreferrer">
-                            <FontAwesomeIcon icon={faInstagram} className="social-icons-logo me-5"/>
-                        </a>
-                        <a href="https://github.com/ritace7" target="_blank" rel="noreferrer" >
-                            <FontAwesomeIcon icon={faGithub} className="social-icons-logo me-5"/>
-                        </a>
-                        <a href="https://www.linkedin.com/in/hritesh7" target="_blank" rel="noreferrer" >
-                            <FontAwesomeIcon icon={faLinkedin} className="social-icons-logo me-5"/>
-                        </a>
+                        {socials.map((social) => (
+                            <a title={social.title} href={social.link} target="_blank" rel="noreferrer" >
+                                <FontAwesomeIcon icon={social.icon} className="social-icons-logo me-5"/>
+                            </a>
+                        ))}
                     </div>
                 </div>
                 <div>

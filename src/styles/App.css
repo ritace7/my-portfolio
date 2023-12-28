@@ -385,6 +385,20 @@ body::-webkit-scrollbar {
   text-align: center;
 }
 
+.card-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.card-links a {
+  color: white;
+  background-color: transparent;
+  font-size: 3em;
+}
+.card-links a:hover {
+  color: #53A7FB;
+}
+
 .project-section {
   height: 90vh;
   padding: 1em 1.1em;
