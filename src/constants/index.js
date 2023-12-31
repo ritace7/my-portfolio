@@ -1,3 +1,4 @@
+import project_travel_app from "../images/projects/project_travel_app.jpg";
 import project_puma from "../images/projects/project_puma.jpg";
 import project_dummy_store from "../images/projects/project_dummy_store.jpg";
 import project_todo from "../images/projects/project_todo.jpg";
@@ -10,11 +11,11 @@ import { faGithub, faInstagram, faFacebook, faLinkedin } from '@fortawesome/free
 
 export const projects = [
     {
-        title: "Puma Clone",
-        cover: project_puma,
-        description: "A fully responsive clone of the Puma website built with TailWind, React and Typescript..",
-        link: "https://ritace7.github.io/puma/",
-        code: "https://github.com/ritace7/puma"
+        title: "Travel App",
+        cover: project_travel_app,
+        description: "A travel app, powered by Next.js, TypeScript, and Tailwind CSS. Seamless navigation, stunning visuals, and a smooth user experience await!",
+        link: "https://traverse.netlify.app/",
+        code: "https://github.com/ritace7/travel_app"
     },
     {
         title: "Dummy Store",
@@ -22,6 +23,13 @@ export const projects = [
         description: "A MERN app which provides the basic functionalities of an e-store..",
         link: "https://dummy-store.onrender.com/",
         code: "https://github.com/ritace7/dummy-store"
+    },
+    {
+        title: "Puma Clone",
+        cover: project_puma,
+        description: "A fully responsive clone of the Puma website built with TailWind, React and Typescript..",
+        link: "https://ritace7.github.io/puma/",
+        code: "https://github.com/ritace7/puma"
     },
     {
         title: "Todo App",
