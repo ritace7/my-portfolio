@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.d8326b14.css",
-    "main.js": "/my-portfolio/static/js/main.6f7c982b.js",
+    "main.js": "/my-portfolio/static/js/main.76a8f113.js",
     "static/media/home-img.png": "/my-portfolio/static/media/home-img.d28225ce44b23ba4b7f8.png",
     "static/media/contact-img.png": "/my-portfolio/static/media/contact-img.bb4359a2220eaaa61146.png",
     "static/media/project_mcu.jpg": "/my-portfolio/static/media/project_mcu.f5fc505feed7b70e21a6.jpg",
@@ -10,6 +10,7 @@
     "static/media/project_toggle_theme.jpg": "/my-portfolio/static/media/project_toggle_theme.ae0e17c2cf98e2fdbd7d.jpg",
     "static/media/project_dummy_store.jpg": "/my-portfolio/static/media/project_dummy_store.3d5b775c54aeee3f9f83.jpg",
     "static/media/project_tenzies.jpg": "/my-portfolio/static/media/project_tenzies.cac4c66b35de8b8e31a3.jpg",
+    "static/media/project_car_hub.jpg": "/my-portfolio/static/media/project_car_hub.f059609fb6fd7296fbc8.jpg",
     "static/media/project_travel_app.jpg": "/my-portfolio/static/media/project_travel_app.73d01c97e2ec85253cfc.jpg",
     "static/media/project_hangman.jpg": "/my-portfolio/static/media/project_hangman.d0debe49498460f11687.jpg",
     "static/media/project_todo.jpg": "/my-portfolio/static/media/project_todo.741f089b06ad24e7a9f8.jpg",
@@ -19,10 +20,10 @@
     "static/media/revicons.woff": "/my-portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/my-portfolio/index.html",
     "main.d8326b14.css.map": "/my-portfolio/static/css/main.d8326b14.css.map",
-    "main.6f7c982b.js.map": "/my-portfolio/static/js/main.6f7c982b.js.map"
+    "main.76a8f113.js.map": "/my-portfolio/static/js/main.76a8f113.js.map"
   },
   "entrypoints": [
     "static/css/main.d8326b14.css",
-    "static/js/main.6f7c982b.js"
+    "static/js/main.76a8f113.js"
   ]
 }
