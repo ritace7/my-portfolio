@@ -1,3 +1,4 @@
+import project_car_hub from "../images/projects/project_car_hub.jpg";
 import project_travel_app from "../images/projects/project_travel_app.jpg";
 import project_puma from "../images/projects/project_puma.jpg";
 import project_dummy_store from "../images/projects/project_dummy_store.jpg";
@@ -10,6 +11,13 @@ import project_toggle from "../images/projects/project_toggle_theme.jpg";
 import { faGithub, faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export const projects = [
+    {
+        title: "Car Hub",
+        cover: project_car_hub,
+        description: "Sleek car website crafted with Next.js, Tailwind CSS, and Headless UI for a stylish experience!",
+        link: "https://carhub-official.netlify.app/",
+        code: "https://github.com/ritace7/car_hub"
+    },
     {
         title: "Travel App",
         cover: project_travel_app,
