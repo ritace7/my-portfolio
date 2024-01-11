@@ -8,6 +8,7 @@ import project_hangman from "../images/projects/project_hangman.jpg";
 import project_mcu from "../images/projects/project_mcu.jpg";
 import project_tenzies from "../images/projects/project_tenzies.jpg";
 import project_toggle from "../images/projects/project_toggle_theme.jpg";
+import project_project_manager from "../images/projects/project_project_manager.jpg";
 import { faGithub, faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export const projects = [
@@ -31,6 +32,13 @@ export const projects = [
         description: "A MERN app which provides the basic functionalities of an e-store..",
         link: "https://dummy-store.onrender.com/",
         code: "https://github.com/ritace7/dummy-store"
+    },
+    {
+        title: "Project Manager",
+        cover: project_project_manager,
+        description: "Efficient project management app created with GraphQL, React, and Node.js for client and project tracking.",
+        link: "https://graphql-projecttracker.onrender.com/",
+        code: "https://github.com/ritace7/graphql-projectmanager"
     },
     {
         title: "Puma Clone",
